@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 const withPWA = require('next-pwa');
 
 module.exports = withPWA({
@@ -18,3 +19,11 @@ module.exports = withPWA({
     domains: ['cdn.shopify.com'],
   },
 })
+=======
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  reactStrictMode: true,
+}
+
+module.exports = nextConfig
+>>>>>>> f1ec3a1 (Initial commit from Create Next App)
