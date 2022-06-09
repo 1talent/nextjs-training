@@ -1,4 +1,5 @@
 import { CartProvider } from '@/context/Store'
+import Footer from './Footer'
 import Nav from './Nav'
 
 function Layout({ children }) {
@@ -12,7 +13,7 @@ function Layout({ children }) {
           {children}
         </main>
 
-        {/* <Footer /> */}
+        <Footer />
       </div>
     </CartProvider>
   )
