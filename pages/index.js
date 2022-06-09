@@ -1,4 +1,5 @@
 import ProductListings from "@/components/ProductListings";
+import StoreHeading from '@/components/StoreHeading'
 
 const products = [
   {
@@ -48,6 +49,7 @@ const products = [
 export default function Home() {
   return (
     <div>
+      <StoreHeading />
       <ProductListings products={products} />
     </div>
   );
