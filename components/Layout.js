@@ -1,11 +1,12 @@
 import { CartProvider } from '@/context/Store'
+import Nav from './Nav'
 
 function Layout({ children }) {
   
   return (
     <CartProvider>
       <div className="flex flex-col justify-between min-h-screen">
-        {/* <Nav /> */}
+        <Nav />
 
         <main>
           {children}
